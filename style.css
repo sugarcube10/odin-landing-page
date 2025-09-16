@@ -1,6 +1,12 @@
+body {
+    margin: 0;
+}
+
 .header {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
 }
 
 h1 {
@@ -28,6 +34,16 @@ h1 {
     color: #ffffff;
 }
 
+button {
+    border-radius: 2px;
+    border-color: #ffffff;
+
+}
+
+.sign {
+    border: none;
+}
+
 h2 {
     font-size: 36px;
     color: #1f2937;
@@ -47,4 +63,31 @@ h2 {
 
 .footer {
     color: #ffffff;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    gap: 18px;
 }
