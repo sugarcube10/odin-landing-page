@@ -124,3 +124,17 @@ li {
     flex-wrap: wrap;
 }
 
+.box3 {
+    margin: 40px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.but {
+    align-self: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+}
