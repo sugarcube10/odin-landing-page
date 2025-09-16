@@ -91,3 +91,33 @@ li {
     display: flex;
     gap: 18px;
 }
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoroki {
+    display: flex;
+    padding-bottom: 80px;
+    align-items: center;
+    gap: 20px;
+}
+
+.single {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    border: #3882f6;
+    border-radius: 2px;
+}
