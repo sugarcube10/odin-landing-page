@@ -52,7 +52,14 @@ h2 {
 
 .box2 {
     background-color: #e5e7eb;
+    padding: 40px;
+    margin: 0;
+    border: 0;
+}
 
+.sugar {
+    padding-left: 800px;
+    font-weight: 800;
 }
 
 .quote {
@@ -117,7 +124,3 @@ li {
     flex-wrap: wrap;
 }
 
-.image {
-    border: #3882f6;
-    border-radius: 2px;
-}
